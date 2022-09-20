@@ -1,0 +1,8 @@
+.menuNavDesktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(192, 165, 93, 0.559);
+    width: 100%;
+    
+}
