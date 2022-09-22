@@ -24,3 +24,21 @@ body{
    text-decoration: none;
    color: white;
 }
+
+.imgFrontalDosNoivos{
+    width: 35%;
+    height: 80%;
+    background-color: #f8f8f8d3;
+    border-top-left-radius: 30px;
+}
+
+.imgFrontalDosNoivos img{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 2%;
+}
