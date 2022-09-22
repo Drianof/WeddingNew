@@ -11,7 +11,7 @@ body{
     position: fixed;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(192, 165, 93, 0.559);
+    background-color: rgba(173, 144, 62, 0.559);
     width: 100%;
     color: white;
     
@@ -40,4 +40,38 @@ body{
     object-fit: cover;
     margin-top: 0px;
     
+}
+
+.boasVindasDosNoivos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 144, 62, 0.559);
+    margin-top: 0;
+    color: white;
+}
+
+.apresentacaoDosNoivos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.apresentacaoDosNoivos h2{
+    display: flex;
+    font-size: 40px;
+    color: rgba(173, 144, 62, 0.559);
+}
+
+.segundaImgDosNoivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.segundaImgDosNoivos img{
+    border-radius: 25%;
+    border: 5px rgba(173, 144, 62, 0.559) solid;
+
 }
