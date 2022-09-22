@@ -8,19 +8,36 @@ body{
 
 .menuNavDesktop{
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-around;
     background-color: rgba(192, 165, 93, 0.559);
     width: 100%;
+    color: white;
     
 }
 .menuNavDesktop nav {
     display: flex;
-    gap: 5px;
+    gap: 15px;
     list-style: none;
     
 }
 .menuNavDesktop nav a{
    text-decoration: none;
    color: white;
+}
+
+.imgFrontalDosNoivos{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+.imgFrontalDosNoivos img{
+    width: 100%;
+    height: 510px;
+    object-fit: cover;
+    margin-top: 0px;
+    
 }
