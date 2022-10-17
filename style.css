@@ -26,10 +26,16 @@ body{
    text-decoration: none;
    color: white;
 }
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
 
 .imgFrontalDosNoivos{
     background-color: rgb(255, 255, 255);
-    margin-top: 0px;
+    margin-top: 0;
     width: 100%;
 
 }
@@ -75,3 +81,67 @@ body{
     border: 5px rgba(173, 144, 62, 0.559) solid;
 
 }
+.confirmarPresenca h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmarPresenca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 144, 62, 0.559);
+    margin-top: 10px;
+    color: white;
+    
+}
+.confirmarPresenca input{
+    width: 550px;
+    height: 30px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    
+}
+.informationBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 144, 62, 0.559);
+
+   
+}
+
+.chooseInformation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 144, 62, 0.559);
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(173, 144, 62, 0.559);
+    
+}
+
+#btn-mobile {
+    display: none;
+}
+@media (max-width: 600px){
+    #btn-mobile{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+}
+    
