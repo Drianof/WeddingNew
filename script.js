@@ -1,5 +1,3 @@
-
-    var contagem = new Date('19/03/2023 11:11')
     let contagem = document.getElementById("Five");
     let hoje  = new Date();
     const dataDoCasamento = new Date('19/03/2023 11:11')
