@@ -6,6 +6,11 @@
     let horas = Math.floor(tempoParaOCasamento/(1000 * 60 * 60)) - dias * 24
     contagem.innerHTML = `${dias} dias  ${horas} horas`
 
+    setTimeout (function(){
+        alert('Não se esqueça de dar uma olhada na lista de presentes ;)');
+
+    },400);
+
     const btnMobile = document.getElementById('btn-mobile');
 
     function toggleMenu(event) {
