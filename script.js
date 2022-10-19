@@ -1,4 +1,4 @@
-    let contagem = document.getElementById("Five");
+    let contagem = document.getElementById("#Five");
     let hoje  = new Date();
     const dataDoCasamento = new Date('22 december 2022')
     let tempoParaOCasamento = dataDoCasamento - hoje
