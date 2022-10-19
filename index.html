@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    
+
     <script defer src="script.js"> </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Giulia & Adriano</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header id="header" class="menuNavDesktop">
-            
-            
-            <a id="logo"><h1>Ana Giulia & Adriano</h1></a>
-            
-           
-        <nav id="nav">  
+
+
+        <a id="logo">
+            <h1>Ana Giulia & Adriano</h1>
+        </a>
+
+
+        <nav id="nav">
             <button id="btn-mobile">Menu<span id="hamburguer"></span></button>
-            
+
             <ul id="menu">
-                 
-                <li><a href="#Two"><strong>OS NOIVOS</li></strong></a>
-                
-                <li><a href="#Four"><strong>CONFIRMAR PRESENÇA</li></strong></a>
-                
-                <li><a href="#Five"><strong>CONTAGEM REGRESSIVA</li></strong></a>
-                
-                <li><a href="#Six"><strong>ENDEREÇO</li></strong></a>
-                
+
+                <li><a href="#Two"><strong>OS NOIVOS</strong></a></li>
+
+                <li><a href="#Four"><strong>CONFIRMAR PRESENÇA</strong></a></li>
+
+                <li><a href="#Five"><strong>CONTAGEM REGRESSIVA</strong></a></li>
+
+                <li><a href="#Six"><strong>ENDEREÇO</strong></a></li>
+
                 <li><a href="https://www.finalfeliz.de/adrianoeanagiulia "><strong>PRESENTES</strong></li></a>
             </ul>
-   </nav> 
+        </nav>
 
     </header>
     <section class="imgFrontalDosNoivos">
@@ -56,52 +64,97 @@
     </section>
 
     <section class="confirmarPresenca">
-        <form method="POST" onsubmit=""  id="Four" class="presenca">
+        <form method="POST" onsubmit="" id="Four" class="presenca">
             <h2>Confirme sua presença</h2>
             <!-- nome completo -->
-    <section class="informationBox"></section>
+            <section class="informationBox"></section>
             <div>
                 <input id="nome" type="text" minlength="8" placeholder="Nome Completo ..." name="entry.118463827">
             </div>
             <!-- telefone -->
             <div>
-                <input id="telefone" type="text" pattern="\([0-9]{2}\) [0-9]{5}\-[0-9]{4}" maxlength="15"  placeholder="Telefone ..." name="entry.1020687886">
+                <input id="telefone" type="text" pattern="\([0-9]{2}\) [0-9]{5}\-[0-9]{4}" maxlength="15"
+                    placeholder="Telefone ..." name="entry.1020687886">
             </div>
             <!-- radio button -->
     </section>
     <section class="chooseInformation">
-            <div>
-                <input id="sozinho" type="radio" name="entry.2020850747">
-                <label for="sozinho">Confirmo apenas minha presença</label>
-                <input id="familia" type="radio" name="entry.2020850747">
-                <label for="sozinho">Todos a quem o convite foi destinado</label>
-            </div>
+        <div>
+            <input id="sozinho" type="radio" name="entry.2020850747">
+            <label for="sozinho">Confirmo apenas minha presença</label>
+            <input id="familia" type="radio" name="entry.2020850747">
+            <label for="sozinho">Todos a quem o convite foi destinado</label>
+        </div>
     </section>
+
     <section class="button">
-            <button type="submit">Confirmar</button>
+        <button type="submit">Confirmar</button>
     </section>
+
     </section>
-    
-    <div>
-        <h3>Contagem Regressiva</h3>
-    </div>
+
+    <section class="h3">
+
+        <p>Contagem Regressiva</p>
+
+    </section>
+
     <section id="Five" class="contagemRegressiva">
     </section>
 
+    <section class="tittleLocation">
+        <div class="esquerdo">
 
-    <section class="localizacaoDoSalao">
-        <h5>Localização do salão</h5>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.5990375230867!2d-42.26510928441944!3d-22.85431944174804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x976cef7a53e0e9%3A0x2cedb2720145ceee!2sR.%20S%C3%A3o%20Jo%C3%A3o%2C%20359%20-%20Iguaba%20Pequena%2C%20Araruama%20-%20RJ%2C%2028970-000!5e0!3m2!1spt-BR!2sbr!4v1661294072538!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="localiza"></iframe>
-    </section>
-    <section class="localIformation">
-        <span class="material-icons">face</span>
-    </section>
-    <section class="localIformation2">
-        <span class="material-icons">map</span>
-    </section>
-    
+            
+                <div class="date">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-calendar2-heart-fill" viewBox="0 0 16 16">
+                        <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5Zm-2 4v-1c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5Zm6 3.493c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+                      </svg>
+                      <div class="text-date">
+                        <p>22/Dec/2022</p>
+
+                      </div>
+
+                </div>
+
+                <div class="time">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                      </svg>
+                      <div class="text-time">
+                        <p>18:00 horas</p>
+
+                      </div>
+
+                <div class="location">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                      </svg>
+                      <div class="text-location">
+                        <p>R. Costa Rica, 460 - Parque Hotel, Araruama - RJ, 28970-000</p>
+
+                      </div>
+
+                </div>
+
+                
+
+                </div>
 
 
-    
+        </div>
+
+        <div id="#Six" class="direito">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.196372173288!2d-42.3312956!3d-22.869203199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9769b38818b41d%3A0x560886fd2de1057c!2sMans%C3%A3o%20das%20Orqu%C3%ADdeas%20Casa%20de%20Festas!5e0!3m2!1spt-BR!2sbr!4v1666141806003!5m2!1spt-BR!2sbr" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+       
+    </section>
+
+
+
 </body>
+
 </html>
