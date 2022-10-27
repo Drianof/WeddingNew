@@ -194,6 +194,7 @@ body{
     background-color: rgba(173, 144, 62, 0.559);
     font-size: 13px;
     padding: 15px;
+    text-align: center;
 
 }
 .button{
@@ -262,7 +263,7 @@ body{
 
 .text-date{
     font-family: 'Cormorant SC', serif;
-    font-size: 18px;
+    font-size: 15px;
     
 }
 .location{
@@ -271,7 +272,7 @@ body{
 
 .text-location{
     font-family: 'Cormorant SC', serif;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 40px;
 }
 .time{
@@ -279,7 +280,7 @@ body{
 }
 .text-time{
     font-family: 'Cormorant SC', serif;
-    font-size: 18px;
+    font-size: 15px;
     margin-bottom: 40px;
 } 
 
